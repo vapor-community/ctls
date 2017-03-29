@@ -6,7 +6,7 @@ let package = Package(
     name: "CTLS",
     pkgConfig: "ctls",
     providers: [
-        .Brew("openssl"),
-        .Apt("openssl")
+        .Brew("ctls"),
+        .Apt("ctls")
     ]
 )
