@@ -6,6 +6,9 @@ let package = Package(
     pkgConfig: "ctls",
     providers: [
         .brew(["ctls"]),
-        .apt(["ctls"])
+        .apt(["ctls"]),
+    ],
+    products: [
+        .library(name: "CTLS", targets: []),
     ]
 )
