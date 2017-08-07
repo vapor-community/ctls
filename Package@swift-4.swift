@@ -10,5 +10,8 @@ let package = Package(
     ],
     products: [
         .library(name: "CTLS", targets: []),
+    ],
+    targets: [
+        .target(name: "CTLS", dependencies: []),
     ]
 )
