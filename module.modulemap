@@ -2,5 +2,4 @@ module CTLS [system] {
     header "shim.h"
     link "ssl"
     link "crypto"
-    export *
 }
