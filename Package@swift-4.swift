@@ -4,6 +4,10 @@ import PackageDescription
 let package = Package(
     name: "CTLS",
     pkgConfig: "ctls",
+    providers: [
+        .brew(["openssl"]),
+        .apt(["libssl-dev"])
+    ],
     products: [
         .library(name: "CTLS", targets: ["CTLS"])
     ],
